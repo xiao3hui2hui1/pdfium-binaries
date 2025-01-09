@@ -1,6 +1,6 @@
 #!/bin/bash -eux
 
-PDFium_URL='https://pdfium.googlesource.com/pdfium.git'
+PDFium_URL='https://github.com/xiao3hui2hui1/pdfium.git'
 OS=${PDFium_TARGET_OS:?}
 ENABLE_V8=${PDFium_ENABLE_V8:-false}
 
