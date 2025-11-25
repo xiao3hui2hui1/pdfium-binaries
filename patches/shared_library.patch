@@ -6,8 +6,8 @@ index bf0994aee..021d1bd99 100644
    ]
  }
  
--component("pdfium") {
-+shared_library("pdfium") {
+-component("pdfium_core") {
++shared_library("pdfium_core") {
    libs = []
    configs += [ ":pdfium_strict_config" ]
    public_configs = [ ":pdfium_public_config" ]
