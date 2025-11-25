@@ -26,7 +26,7 @@ rm -f "$STAGING/include/PRESUBMIT.py"
 
 case "$OS" in
   android|linux)
-    mv "$BUILD/libpdfium.so" "$STAGING_LIB"
+    mv "$BUILD/libpdfium_core.so" "$STAGING_LIB"
     ;;
 
   mac|ios)
